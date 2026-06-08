@@ -105,5 +105,8 @@ flowchart TD
     Alert --> Triage --> Escalation --> Containment --> Eradication --> Recovery --> Lessons
 
 ```
+### 👨‍💻 Contribution Guidelines  
+- Fork the repo, create a feature branch, submit a pull request.
+
 ### 📜 License
 MIT License — free to use and adapt with attribution.
