@@ -35,7 +35,7 @@ python scripts/log_parser.py datasets/sample.log parsed_logs.csv
 - Elastic Security Integration → Extend parsing to Elastic SIEM.
 - Threat Hunting Playbooks → Add MITRE ATT&CK‑aligned hunting guides.
 - XDR Expansion → Integrate with Microsoft Defender XDR or Palo Alto Cortex.
-
+```
 ## 🔎 Input vs Output Demo
 
 **Input (`sample.log`):**
