@@ -7,11 +7,14 @@ Scripts for parsing and normalizing SIEM logs (Splunk, Microsoft Sentinel) to au
 ![PowerShell](https://img.shields.io/badge/powershell-5.1-lightblue)
 ![Bash](https://img.shields.io/badge/bash-4.4-black)
 
-🚀 Quickstart
+🚀 #Quickstart#
 ```bash
 git clone https://github.com/yourusername/SIEM-Log-Parsing-Scripts.git
 cd SIEM-Log-Parsing-Scripts
 python scripts/log_parser.py datasets/sample.log parsed_logs.csv
+
+✨ Features
+
 
 
 🏗️ Box‑Style Architecture Diagram
