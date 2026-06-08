@@ -127,9 +127,10 @@ flowchart TD
 - Fork the repo, create a feature branch, submit a pull request.
 
   ### 📖 Documentation
-- Additional SOC workflow details and incident response templates are available in the docs folder (github.com in Bing).
-- Incident Response Template → step‑by‑step guide for handling alerts, triage, escalation, and recovery.
-- SOC Playbooks → Markdown‑based procedures for common attack scenarios (planned in Future Enhancements).
+## 📖 Documentation
+- Additional SOC workflow details and templates are available in the [docs folder](https://github.com/ennduka86-spec/SIEM-Log-Parsing-Scripts/tree/main/docs).
+- [Incident Response Template](https://github.com/ennduka86-spec/SIEM-Log-Parsing-Scripts/blob/main/docs/incident_response_template.md) → step‑by‑step guide for handling alerts, triage, escalation, and recovery.  
+- SOC Playbooks → Markdown‑based procedures for common attack scenarios (planned in 📈 Future Enhancements).  
 
 ### 📜 License
 - MIT License — free to use and adapt with attribution.
