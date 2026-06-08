@@ -15,14 +15,14 @@ This repository demonstrates SOC automation skills by parsing SIEM logs across P
 git clone https://github.com/yourusername/SIEM-Log-Parsing-Scripts.git
 cd SIEM-Log-Parsing-Scripts
 python scripts/log_parser.py datasets/sample.log parsed_logs.csv
-
+```
 ### 🛠 Usage Examples
 ```bash
 python scripts/log_parser.py datasets/sample.log parsed_logs.csv
 ./scripts/ssh_filter.sh datasets/auth.log
 .\scripts\event_parser.ps1
   
-
+```
 ### 📂 Repository Structure
 ```text
 SIEM-Log-Parsing-Scripts/
@@ -43,13 +43,13 @@ SIEM-Log-Parsing-Scripts/
 ├── README.md                  # Project overview and usage guide
 ├── LICENSE                    # MIT License
 └── .gitignore                 # Ignore unnecessary files
-
+```
 
 ### ✨ Features
 - Add Splunk detection queries
 - Automate AWS GuardDuty parsing
 - Build compliance dashboards
-
+```
 # 📊 Workflow
 - Alert → SIEM generates an alert from raw logs.
 - Triage → Your scripts normalize logs, making them easier to analyze.
@@ -58,7 +58,7 @@ SIEM-Log-Parsing-Scripts/
 - Eradication → Analysts use structured logs to remove threats.
 - Recovery → Clean logs help validate system recovery.
 - Lessons → Output datasets feed back into detection engineering.
-
+```
 # 🔮 Future Work
 - Splunk Detection Queries → Add SPL queries for automated detection.
 - AWS GuardDuty Automation → Scripts to parse GuardDuty findings.
@@ -66,7 +66,7 @@ SIEM-Log-Parsing-Scripts/
 - Elastic Security Integration → Extend parsing to Elastic SIEM.
 - Threat Hunting Playbooks → Add MITRE ATT&CK‑aligned hunting guides.
 - XDR Expansion → Integrate with Microsoft Defender XDR or Palo Alto Cortex.
-
+```
 #📈 Future Enhancements
 - Dockerized deployment → Package scripts into containers for portability.
 - Elastic Security integration → Extend parsing to Elastic SIEM workflows.
