@@ -1,4 +1,4 @@
-# SIEM-Log-Parsing-Scripts
+### SIEM-Log-Parsing-Scripts
 Scripts for parsing and normalizing SIEM logs (Splunk, Microsoft Sentinel) to automate alert triage and improve SOC efficiency.
 
 ![Build Status](https://img.shields.io/badge/build-passing-brightgreen)
@@ -10,20 +10,20 @@ Scripts for parsing and normalizing SIEM logs (Splunk, Microsoft Sentinel) to au
 
 This repository demonstrates SOC automation skills by parsing SIEM logs across Python, PowerShell, and Bash, enriching them with MITRE ATT&CK techniques, and documenting workflows for incident response.
 
-# 🚀 Quickstart
+### 🚀 Quickstart
 ```bash
 git clone https://github.com/yourusername/SIEM-Log-Parsing-Scripts.git
 cd SIEM-Log-Parsing-Scripts
 python scripts/log_parser.py datasets/sample.log parsed_logs.csv
 
-# 🛠 Usage Examples
+### 🛠 Usage Examples
 ```bash
 python scripts/log_parser.py datasets/sample.log parsed_logs.csv
 ./scripts/ssh_filter.sh datasets/auth.log
 .\scripts\event_parser.ps1
   
 
-# 📂 Repository Structure
+### 📂 Repository Structure
 ```text
 SIEM-Log-Parsing-Scripts/
 │
@@ -45,7 +45,7 @@ SIEM-Log-Parsing-Scripts/
 └── .gitignore                 # Ignore unnecessary files
 
 
-# ✨ Features
+### ✨ Features
 - Add Splunk detection queries
 - Automate AWS GuardDuty parsing
 - Build compliance dashboards
