@@ -14,6 +14,13 @@ git clone https://github.com/yourusername/SIEM-Log-Parsing-Scripts.git
 cd SIEM-Log-Parsing-Scripts
 python scripts/log_parser.py datasets/sample.log parsed_logs.csv
 
+# 🛠 Usage Examples
+```bash
+python scripts/log_parser.py datasets/sample.log parsed_logs.csv
+./scripts/ssh_filter.sh datasets/auth.log
+.\scripts\event_parser.ps1
+  
+
 # 📂 Repository Structure
 ```text
 SIEM-Log-Parsing-Scripts/
@@ -57,6 +64,12 @@ SIEM-Log-Parsing-Scripts/
 - Elastic Security Integration → Extend parsing to Elastic SIEM.
 - Threat Hunting Playbooks → Add MITRE ATT&CK‑aligned hunting guides.
 - XDR Expansion → Integrate with Microsoft Defender XDR or Palo Alto Cortex.
+
+#📈 Future Enhancements
+- Dockerized deployment → Package scripts into containers for portability.
+- Elastic Security integration → Extend parsing to Elastic SIEM workflows.
+- Markdown SOC playbooks → Document incident response procedures in Markdown for easy sharing.
+ 
 ```
 ## 🔎 Input vs Output Demo
 
