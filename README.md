@@ -125,4 +125,4 @@ flowchart TD
 - Fork the repo, create a feature branch, submit a pull request.
 
 ### 📜 License
-MIT License — free to use and adapt with attribution.
+- MIT License — free to use and adapt with attribution.
