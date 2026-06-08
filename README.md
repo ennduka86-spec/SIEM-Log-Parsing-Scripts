@@ -103,3 +103,7 @@ SIEM-Log-Parsing-Scripts/
 ```mermaid
 flowchart TD
     Alert --> Triage --> Escalation --> Containment --> Eradication --> Recovery --> Lessons
+
+```
+### 📜 License
+MIT License — free to use and adapt with attribution.
