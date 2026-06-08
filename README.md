@@ -14,6 +14,28 @@ git clone https://github.com/yourusername/SIEM-Log-Parsing-Scripts.git
 cd SIEM-Log-Parsing-Scripts
 python scripts/log_parser.py datasets/sample.log parsed_logs.csv
 
+# 📂 Repository Structure
+```text
+SIEM-Log-Parsing-Scripts/
+│
+├── scripts/
+│   ├── log_parser.py          # Python script: JSON → CSV parsing
+│   ├── event_parser.ps1       # PowerShell script: Windows Event Logs → CSV
+│   ├── ssh_filter.sh          # Bash script: filter failed SSH logins
+│   └── mitre_mapper.py        # Python script: map logs to MITRE ATT&CK techniques
+│
+├── datasets/
+│   ├── sample.log             # Raw input logs (JSON format)
+│   └── mapped_logs.csv        # Enriched output logs (CSV with MITRE mapping)
+│
+├── docs/
+│   └── incident_response_template.md   # Documentation for SOC workflows
+│
+├── README.md                  # Project overview and usage guide
+├── LICENSE                    # MIT License
+└── .gitignore                 # Ignore unnecessary files
+
+
 # ✨ Features
 - Add Splunk detection queries
 - Automate AWS GuardDuty parsing
