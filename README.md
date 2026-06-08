@@ -15,7 +15,7 @@ This repository demonstrates SOC automation skills by parsing SIEM logs across P
 git clone https://github.com/yourusername/SIEM-Log-Parsing-Scripts.git
 cd SIEM-Log-Parsing-Scripts
 python scripts/log_parser.py datasets/sample.log parsed_logs.csv
-```
+
 ### 🛠 Usage Examples
 ```bash
 python scripts/log_parser.py datasets/sample.log parsed_logs.csv
