@@ -1,5 +1,6 @@
 # SIEM-Log-Parsing-Scripts
 Scripts for parsing and normalizing SIEM logs (Splunk, Microsoft Sentinel) to automate alert triage and improve SOC efficiency.
+
 ![Build Status](https://img.shields.io/badge/build-passing-brightgreen)
 ![Security Scan](https://img.shields.io/badge/security-scanned-blue)
 ![License](https://img.shields.io/badge/license-MIT-yellow)
