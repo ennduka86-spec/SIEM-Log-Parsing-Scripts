@@ -8,6 +8,8 @@ Scripts for parsing and normalizing SIEM logs (Splunk, Microsoft Sentinel) to au
 ![PowerShell](https://img.shields.io/badge/powershell-5.1-lightblue)
 ![Bash](https://img.shields.io/badge/bash-4.4-black)
 
+This repository demonstrates SOC automation skills by parsing SIEM logs across Python, PowerShell, and Bash, enriching them with MITRE ATT&CK techniques, and documenting workflows for incident response.
+
 # 🚀 Quickstart
 ```bash
 git clone https://github.com/yourusername/SIEM-Log-Parsing-Scripts.git
