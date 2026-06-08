@@ -19,6 +19,31 @@ python scripts/log_parser.py datasets/sample.log parsed_logs.csv
 - Automate AWS GuardDuty parsing
 - Build compliance dashboards
 
+# 📊 Workflow
+- Alert → SIEM generates an alert from raw logs.
+- Triage → Your scripts normalize logs, making them easier to analyze.
+- Escalation → Enriched logs (with MITRE ATT&CK mapping) help analysts decide if escalation is needed.
+- Containment → Parsed data supports quick response actions.
+- Eradication → Analysts use structured logs to remove threats.
+- Recovery → Clean logs help validate system recovery.
+- Lessons → Output datasets feed back into detection engineering.
+
+# 🔮 Future Work
+- Splunk Detection Queries → Add SPL queries for automated detection.
+- AWS GuardDuty Automation → Scripts to parse GuardDuty findings.
+- Compliance Dashboards → Build dashboards for PCI‑DSS, HIPAA, SOC2.
+- Elastic Security Integration → Extend parsing to Elastic SIEM.
+- Threat Hunting Playbooks → Add MITRE ATT&CK‑aligned hunting guides.
+- XDR Expansion → Integrate with Microsoft Defender XDR or Palo Alto Cortex.
+
+## 🔎 Input vs Output Demo
+
+**Input (`sample.log`):**
+```json
+{"timestamp": "2026-06-09T02:00:00Z", "event_id": 4624, "user": "ejike", "action": "LogonSuccess", "source_ip": "192.168.1.10"}
+{"timestamp": "2026-06-09T02:05:00Z", "event_id": 4625, "user": "unknown", "action": "LogonFailure", "source_ip": "203.0.113.45"}
+
+
 
 🏗️ Box‑Style Architecture Diagram
 ```markdown
