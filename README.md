@@ -49,6 +49,7 @@ SIEM-Log-Parsing-Scripts/
 - Add Splunk detection queries
 - Automate AWS GuardDuty parsing
 - Build compliance dashboards
+
 ```
 # 📊 Workflow
 - Alert → SIEM generates an alert from raw logs.
@@ -58,6 +59,7 @@ SIEM-Log-Parsing-Scripts/
 - Eradication → Analysts use structured logs to remove threats.
 - Recovery → Clean logs help validate system recovery.
 - Lessons → Output datasets feed back into detection engineering.
+
 ```
 # 🔮 Future Work
 - Splunk Detection Queries → Add SPL queries for automated detection.
