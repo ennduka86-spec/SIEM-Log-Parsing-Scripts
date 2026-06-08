@@ -15,7 +15,9 @@ cd SIEM-Log-Parsing-Scripts
 python scripts/log_parser.py datasets/sample.log parsed_logs.csv
 
 # ✨ Features
-
+- Add Splunk detection queries
+- Automate AWS GuardDuty parsing
+- Build compliance dashboards
 
 
 🏗️ Box‑Style Architecture Diagram
