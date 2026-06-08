@@ -75,7 +75,6 @@ python scripts/log_parser.py datasets/sample.log parsed_logs.csv
 
 
 
-
 ## 📊 Workflow Diagram (Mermaid)
 
 ### Incident Response Lifecycle
