@@ -1,0 +1,5 @@
+timestamp,event_id,user,action,source_ip,process,mitre_technique
+2026-06-09T02:00:00Z,4624,ejike,LogonSuccess,192.168.1.10,,T1078 - Valid Accounts (Successful Logon)
+2026-06-09T02:05:00Z,4625,unknown,LogonFailure,203.0.113.45,,T1078 - Valid Accounts (Failed Logon)
+2026-06-09T02:10:00Z,4688,ejike,ProcessCreation,,powershell.exe,T1059 - Command and Scripting Interpreter (Process Creation)
+2026-06-09T02:15:00Z,22,system,SSHFailedLogin,198.51.100.23,,T1110 - Brute Force (SSH Failed Login)
