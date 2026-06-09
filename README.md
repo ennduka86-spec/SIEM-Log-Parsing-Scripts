@@ -93,6 +93,7 @@ SIEM-Log-Parsing-Scripts/
 {"timestamp": "2026-06-09T02:00:00Z", "event_id": 4624, "user": "ejike", "action": "LogonSuccess", "source_ip": "192.168.1.10"}
 {"timestamp": "2026-06-09T02:05:00Z", "event_id": 4625, "user": "unknown", "action": "LogonFailure", "source_ip": "203.0.113.45"}
 
+```
 
 🏗️ Box‑Style Architecture Diagram
 ```markdown
@@ -152,7 +153,7 @@ flowchart TD
     Alert --> Triage --> Escalation --> Containment --> Eradication --> Recovery --> Lessons
 
 
-```
+---
 ### 👨‍💻 Contribution Guidelines  
 - Fork the repo, create a feature branch, submit a pull request.
 ### 📜 Commit Message Convention
