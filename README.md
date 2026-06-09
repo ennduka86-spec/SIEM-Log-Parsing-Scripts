@@ -177,7 +177,7 @@ flowchart TD
     A["SIEM Log Parser (Python)"] --> B["Event Parser (PowerShell)"]
     B --> C["SSH Filter (Bash)"]
     C --> D["MITRE ATT&CK Mapper (Python)"]
-    D --> E["Output Datasets (sample.log, mapped_logs.csv)"]
+    D --> E["Output Datasets (sample log, mapped logs"]
     E --> F["SOC Playbooks (Markdown)"]
     F --> G["Configs (Splunk queries, SIEM integrations)"]
     G --> H["Tests (Unit tests for scripts)"]
