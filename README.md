@@ -132,7 +132,7 @@ Additional SOC workflow details and templates are available in the [docs folder]
 - [Incident Response Template](https://github.com/ennduka86-spec/SIEM-Log-Parsing-Scripts/blob/main/Scripts/docs/incident_response_template.md) → step‑by‑step guide for handling alerts, triage, escalation, and recovery.  
 - [SSH Failed Login Playbook](https://github.com/ennduka86-spec/SIEM-Log-Parsing-Scripts/blob/main/Scripts/docs/ssh_failed_login_playbook.md) → workflow for investigating repeated failed SSH logins.  
 - [Suspicious Logon Playbook](https://github.com/ennduka86-spec/SIEM-Log-Parsing-Scripts/blob/main/Scripts/docs/suspicious_logon_playbook.md) → workflow for investigating unusual logon activity.  
-
+- [Malware Infection Playbook](https://github.com/ennduka86-spec/SIEM-Log-Parsing-Scripts/blob/main/Scripts/docs/malware_infection_playbook.md) → workflow for investigating and remediating malware infections.  
 
 ### 📜 License
 - MIT License — free to use and adapt with attribution.
