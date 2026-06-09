@@ -134,26 +134,9 @@ SIEM-Log-Parsing-Scripts/
 
 ```
 
-### 📊 Workflow Diagram (Mermaid)
-### Repository Workflow
-```mermaid
-flowchart TD
-    A[SIEM Log Parser (Python)] --> B[Event Parser (PowerShell)]
-    B --> C[SSH Filter (Bash)]
-    C --> D[MITRE ATT&CK Mapper (Python)]
-    D --> E[Output Datasets (sample.log, mapped_logs.csv)]
-    E --> F[SOC Playbooks (Markdown)]
-    F --> G[Configs (Splunk queries, SIEM integrations)]
-    G --> H[Tests (Unit tests for scripts)]
-
-```
-### Incident Response Lifecycle
-```mermaid
-flowchart TD
-    Alert --> Triage --> Escalation --> Containment --> Eradication --> Recovery --> Lessons
 
 
----
+
 ### 👨‍💻 Contribution Guidelines  
 - Fork the repo, create a feature branch, submit a pull request.
 ### 📜 Commit Message Convention
@@ -186,3 +169,25 @@ Additional SOC workflow details and templates are available in the [docs folder]
 
 ### 📜 License
 - MIT License — free to use and adapt with attribution.
+
+```
+### 📊 Workflow Diagram (Mermaid)
+### Repository Workflow
+```mermaid
+flowchart TD
+    A[SIEM Log Parser (Python)] --> B[Event Parser (PowerShell)]
+    B --> C[SSH Filter (Bash)]
+    C --> D[MITRE ATT&CK Mapper (Python)]
+    D --> E[Output Datasets (sample.log, mapped_logs.csv)]
+    E --> F[SOC Playbooks (Markdown)]
+    F --> G[Configs (Splunk queries, SIEM integrations)]
+    G --> H[Tests (Unit tests for scripts)]
+
+```
+### Incident Response Lifecycle
+```mermaid
+flowchart TD
+    Alert --> Triage --> Escalation --> Containment --> Eradication --> Recovery --> Lessons
+
+
+```
