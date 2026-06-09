@@ -171,8 +171,6 @@ Additional SOC workflow details and templates are available in the [docs folder]
 - MIT License — free to use and adapt with attribution.
 
 ```
-### 📊 Workflow Diagram (Mermaid)
-### Repository Workflow
 ### Repository Workflow
 ```mermaid
 flowchart TD
