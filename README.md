@@ -27,22 +27,33 @@ python scripts/log_parser.py datasets/sample.log parsed_logs.csv
 ```text
 SIEM-Log-Parsing-Scripts/
 │
-├── scripts/
-│   ├── log_parser.py          # Python script: JSON → CSV parsing
-│   ├── event_parser.ps1       # PowerShell script: Windows Event Logs → CSV
-│   ├── ssh_filter.sh          # Bash script: filter failed SSH logins
-│   └── mitre_mapper.py        # Python script: map logs to MITRE ATT&CK techniques
+├── scripts/                         # Core automation scripts
+│   ├── log_parser.py                # Python: JSON → CSV parsing
+│   ├── event_parser.ps1             # PowerShell: Windows Event Logs → CSV
+│   ├── ssh_filter.sh                # Bash: filter failed SSH logins
+│   └── mitre_mapper.py              # Python: map logs to MITRE ATT&CK techniques
 │
-├── datasets/
-│   ├── sample.log             # Raw input logs (JSON format)
-│   └── mapped_logs.csv        # Enriched output logs (CSV with MITRE mapping)
+├── datasets/                        # Input and output log samples
+│   ├── sample.log                   # Raw input logs (JSON format)
+│   └── mapped_logs.csv              # Enriched output logs (CSV with MITRE mapping)
 │
-├── docs/
-│   └── incident_response_template.md   # Documentation for SOC workflows
+├── docs/                            # SOC documentation & playbooks
+│   ├── incident_response_template.md
+│   ├── ssh_failed_login_playbook.md
+│   ├── suspicious_logon_playbook.md
+│   ├── malware_infection_playbook.md
+│   └── phishing_email_playbook.md
 │
-├── README.md                  # Project overview and usage guide
-├── LICENSE                    # MIT License
-└── .gitignore                 # Ignore unnecessary files
+├── tests/                           # (Future) Unit tests for scripts
+│   └── test_log_parser.py
+│
+├── configs/                         # (Future) Config files for SIEM integrations
+│   └── splunk_queries.conf
+│
+├── README.md                        # Project overview and usage guide
+├── LICENSE                          # MIT License
+└── .gitignore                       # Ignore unnecessary files
+
 ```
 
 ### ✨ Features
@@ -125,6 +136,23 @@ flowchart TD
 ```
 ### 👨‍💻 Contribution Guidelines  
 - Fork the repo, create a feature branch, submit a pull request.
+### 📜 Commit Message Convention
+This project follows the [Conventional Commits](https://www.conventionalcommits.org/) standard:
+
+#### Common Types
+- `feat:` new feature (scripts, playbooks)
+- `fix:` bug fix
+- `docs:` documentation changes (README, playbooks, templates)
+- `style:` formatting, whitespace, linting
+- `refactor:` code restructuring without changing functionality
+- `test:` adding or updating tests
+- `chore:` maintenance tasks (dependencies, configs)
+
+#### Examples
+- `docs: add phishing email playbook`
+- `feat(scripts): add MITRE ATT&CK mapper`
+- `fix(scripts): correct log parser output format`
+- `chore: update .gitignore for datasets`
 
 ### 📖 Documentation
 Additional SOC workflow details and templates are available in the [docs folder](https://github.com/ennduka86-spec/SIEM-Log-Parsing-Scripts/tree/main/Scripts/docs).
