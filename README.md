@@ -79,14 +79,13 @@ SIEM-Log-Parsing-Scripts/
 - Elastic Security Integration → Extend parsing to Elastic SIEM.
 - Threat Hunting Playbooks → Add MITRE ATT&CK‑aligned hunting guides.
 - XDR Expansion → Integrate with Microsoft Defender XDR or Palo Alto Cortex.
-```
+
 #📈 Future Enhancements
 - Dockerized deployment → Package scripts into containers for portability.
 - Elastic Security integration → Extend parsing to Elastic SIEM workflows.
 - Markdown SOC playbooks → Document incident response procedures in Markdown for easy sharing.
 - Cloud SIEM integration → Extend parsing to AWS Security Hub or Azure Sentinel APIs for enterprise‑scale monitoring.
  
-```
 ## 🔎 Input vs Output Demo
 
 **Input (`sample.log`):**
