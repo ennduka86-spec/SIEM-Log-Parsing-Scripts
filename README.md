@@ -132,11 +132,9 @@ SIEM-Log-Parsing-Scripts/
 │   Configs & Tests (Future)     │
 │   (Splunk queries, unit tests) │
 └───────────────────────────────┘
-```
 
 
-
-## 📊 Workflow Diagram (Mermaid)
+### 📊 Workflow Diagram (Mermaid)
 ### Repository Workflow
 ```mermaid
 flowchart TD
@@ -147,8 +145,8 @@ flowchart TD
     E --> F[SOC Playbooks (Markdown)]
     F --> G[Configs (Splunk queries, SIEM integrations)]
     G --> H[Tests (Unit tests for scripts)]
-```
 
+```
 ### Incident Response Lifecycle
 ```mermaid
 flowchart TD
