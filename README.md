@@ -169,7 +169,7 @@ Additional SOC workflow details and templates are available in the [docs folder]
 
 ### 📜 License
 - MIT License — free to use and adapt with attribution.
-
+```
 
 ### Repository Workflow
 ```mermaid
