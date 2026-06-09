@@ -133,6 +133,18 @@ SIEM-Log-Parsing-Scripts/
 └───────────────────────────────┘
 
 ```
+### Repository Workflow
+```mermaid
+flowchart TD
+    A["Parser: Python"] --> B["Parser: PowerShell"]
+    B --> C["Filter: Bash"]
+    C --> D["Mapper: MITRE ATT&CK"]
+    D --> E["Output: CSV"]
+    E --> F["Playbooks: Markdown"]
+    F --> G["Configs: Splunk"]
+    G --> H["Tests: Python"]
+
+
 ### Incident Response Lifecycle
 ```mermaid
 flowchart TD
