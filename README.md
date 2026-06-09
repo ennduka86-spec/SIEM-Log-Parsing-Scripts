@@ -174,13 +174,13 @@ Additional SOC workflow details and templates are available in the [docs folder]
 ### Repository Workflow
 ```mermaid
 flowchart TD
-    A["SIEM Log Parser Python"] --> B["Event Parser PowerShell"]
-    B --> C["SSH Filter Bash"]
-    C --> D["MITRE ATT&CK Mapper Python"]
-    D --> E["Output Datasets sample log, mapped logs"]
-    E --> F["SOC Playbooks Markdown"]
-    F --> G["Configs Splunk queries, SIEM integrations"]
-    G --> H["Tests Unit tests for scripts"]
+    A["Parser: Python"] --> B["Parser: PowerShell"]
+    B --> C["Filter: Bash"]
+    C --> D["Mapper: MITRE ATT&CK"]
+    D --> E["Output: CSV"]
+    E --> F["Playbooks: Markdown"]
+    F --> G["Configs: Splunk"]
+    G --> H["Tests: Python"]
 
 
 ```
