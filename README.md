@@ -147,9 +147,7 @@ flowchart TD
     E --> F[SOC Playbooks (Markdown)]
     F --> G[Configs (Splunk queries, SIEM integrations)]
     G --> H[Tests (Unit tests for scripts)]
-
-
-
+```
 
 ### Incident Response Lifecycle
 ```mermaid
