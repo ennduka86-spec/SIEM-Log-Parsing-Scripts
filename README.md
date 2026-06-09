@@ -61,7 +61,7 @@ SIEM-Log-Parsing-Scripts/
 - Automate AWS GuardDuty parsing
 - Build compliance dashboards
 
-```
+
 ### 📊 Workflow
 - Alert → SIEM generates an alert from raw logs.
 - Triage → Your scripts normalize logs, making them easier to analyze.
@@ -71,7 +71,7 @@ SIEM-Log-Parsing-Scripts/
 - Recovery → Clean logs help validate system recovery.
 - Lessons → Output datasets feed back into detection engineering.
 
-```
+
 # 🔮 Future Work
 - Splunk Detection Queries → Add SPL queries for automated detection.
 - AWS GuardDuty Automation → Scripts to parse GuardDuty findings.
@@ -93,7 +93,6 @@ SIEM-Log-Parsing-Scripts/
 {"timestamp": "2026-06-09T02:00:00Z", "event_id": 4624, "user": "ejike", "action": "LogonSuccess", "source_ip": "192.168.1.10"}
 {"timestamp": "2026-06-09T02:05:00Z", "event_id": 4625, "user": "unknown", "action": "LogonFailure", "source_ip": "203.0.113.45"}
 
-```
 
 🏗️ Box‑Style Architecture Diagram
 ```markdown
@@ -132,6 +131,7 @@ SIEM-Log-Parsing-Scripts/
 │   (Splunk queries, unit tests) │
 └───────────────────────────────┘
 
+```
 
 ### 📊 Workflow Diagram (Mermaid)
 ### Repository Workflow
