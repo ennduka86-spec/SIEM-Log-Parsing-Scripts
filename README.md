@@ -144,7 +144,7 @@ flowchart TD
     F --> G["Configs: Splunk"]
     G --> H["Tests: Python"]
 
-
+```
 ### Incident Response Lifecycle
 ```mermaid
 flowchart TD
