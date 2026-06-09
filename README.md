@@ -133,9 +133,12 @@ SIEM-Log-Parsing-Scripts/
 └───────────────────────────────┘
 
 ```
+### Incident Response Lifecycle
+```mermaid
+flowchart TD
+    Alert --> Triage --> Escalation --> Containment --> Eradication --> Recovery --> Lessons
 
-
-
+```
 
 ### 👨‍💻 Contribution Guidelines  
 - Fork the repo, create a feature branch, submit a pull request.
@@ -169,25 +172,4 @@ Additional SOC workflow details and templates are available in the [docs folder]
 
 ### 📜 License
 - MIT License — free to use and adapt with attribution.
-```
 
-### Repository Workflow
-```mermaid
-flowchart TD
-    A["Parser: Python"] --> B["Parser: PowerShell"]
-    B --> C["Filter: Bash"]
-    C --> D["Mapper: MITRE ATT&CK"]
-    D --> E["Output: CSV"]
-    E --> F["Playbooks: Markdown"]
-    F --> G["Configs: Splunk"]
-    G --> H["Tests: Python"]
-
-
-```
-### Incident Response Lifecycle
-```mermaid
-flowchart TD
-    Alert --> Triage --> Escalation --> Containment --> Eradication --> Recovery --> Lessons
-
-
-```
