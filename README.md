@@ -62,7 +62,7 @@ SIEM-Log-Parsing-Scripts/
 - Build compliance dashboards
 
 ```
-# 📊 Workflow
+### 📊 Workflow
 - Alert → SIEM generates an alert from raw logs.
 - Triage → Your scripts normalize logs, making them easier to analyze.
 - Escalation → Enriched logs (with MITRE ATT&CK mapping) help analysts decide if escalation is needed.
