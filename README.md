@@ -136,13 +136,22 @@ SIEM-Log-Parsing-Scripts/
 ### Repository Workflow
 ```mermaid
 flowchart TD
-    A["Parser: Python"] --> B["Parser: PowerShell"]
-    B --> C["Filter: Bash"]
-    C --> D["Mapper: MITRE ATT&CK"]
-    D --> E["Output: CSV"]
-    E --> F["Playbooks: Markdown"]
-    F --> G["Configs: Splunk"]
-    G --> H["Tests: Python"]
+    A["Parser: Python"]:::red --> B["Parser: PowerShell"]:::orange
+    B --> C["Filter: Bash"]:::yellow
+    C --> D["Mapper: MITRE ATT&CK"]:::green
+    D --> E["Output: CSV"]:::lightblue
+    E --> F["Playbooks: Markdown"]:::blue
+    F --> G["Configs: Splunk"]:::purple
+    G --> H["Tests: Python"]:::pink
+
+    classDef red fill:#ff4d4d,color:#fff,stroke:#333,stroke-width:1px;
+    classDef orange fill:#ffa64d,color:#fff,stroke:#333,stroke-width:1px;
+    classDef yellow fill:#ffeb3b,color:#000,stroke:#333,stroke-width:1px;
+    classDef green fill:#4caf50,color:#fff,stroke:#333,stroke-width:1px;
+    classDef lightblue fill:#03a9f4,color:#fff,stroke:#333,stroke-width:1px;
+    classDef blue fill:#3f51b5,color:#fff,stroke:#333,stroke-width:1px;
+    classDef purple fill:#9c27b0,color:#fff,stroke:#333,stroke-width:1px;
+    classDef pink fill:#e91e63,color:#fff,stroke:#333,stroke-width:1px;
 
 ```
 ### Incident Response Lifecycle
