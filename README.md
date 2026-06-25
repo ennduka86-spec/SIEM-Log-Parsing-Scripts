@@ -157,7 +157,15 @@ flowchart TD
 ### Incident Response Lifecycle
 ```mermaid
 flowchart TD
-    Alert --> Triage --> Escalation --> Containment --> Eradication --> Recovery --> Lessons
+    A[Alert]:::red --> B[Triage]:::orange --> C[Escalation]:::yellow --> D[Containment]:::green --> E[Eradication]:::lightblue --> F[Recovery]:::blue --> G[Lessons]:::purple
+
+    classDef red fill:#ff4d4d,color:#fff,stroke:#333,stroke-width:1px;
+    classDef orange fill:#ffa64d,color:#fff,stroke:#333,stroke-width:1px;
+    classDef yellow fill:#ffeb3b,color:#000,stroke:#333,stroke-width:1px;
+    classDef green fill:#4caf50,color:#fff,stroke:#333,stroke-width:1px;
+    classDef lightblue fill:#03a9f4,color:#fff,stroke:#333,stroke-width:1px;
+    classDef blue fill:#3f51b5,color:#fff,stroke:#333,stroke-width:1px;
+    classDef purple fill:#9c27b0,color:#fff,stroke:#333,stroke-width:1px;
 
 ```
 
